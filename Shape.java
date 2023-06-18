@@ -14,7 +14,8 @@ public abstract class Shape implements Drawable
     protected Color fillColor;
     protected Color borderColor;
     private static int nextId = 0;
-    protected static int myId;
+    protected int myId;
+    protected int lineWidth;
     
     /**
      *  Shape constructor.
@@ -28,6 +29,7 @@ public abstract class Shape implements Drawable
         this.fillColor = Color.RED;
         this.borderColor = Color.BLACK;
         this.pos = new Vector(0, 0);
+        this.lineWidth = 1;
         
         myId = nextId;
         nextId = nextId + 1;
@@ -40,19 +42,31 @@ public abstract class Shape implements Drawable
      *  @param fillColor        the fill color of the Shape
      *  @param borderColor      the border color of the Shape
      *  @param pos              Vector position of the Shape
+     *  @param lineWidth        stroke thickness of the Shape
      *  
      *  @author     Dave Slemon, Zachary Sousa (reworked to use Vector)
      *  @version    1.00
      */
-    public Shape(Vector siz, Color fillColor, Color borderColor, Vector pos)
+    public Shape(Vector siz, Color fillColor, Color borderColor, Vector pos, int lineWidth)
     {
         this.siz = siz;
         this.fillColor = fillColor;
         this.borderColor = borderColor;
         this.pos = pos;
+        this.lineWidth = lineWidth;
         
         myId = nextId;
         nextId = nextId + 1;
+    }
+    
+    /**
+     *  @return     the id of the shape
+     *  @author     Zachary Sousa
+     *  @version    1.00
+     */
+    public int getId()
+    {
+        return myId;
     }
     
     /**

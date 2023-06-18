@@ -1,46 +1,46 @@
 import javafx.scene.paint.Color;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.shape.Rectangle.*;
+import javafx.scene.shape.Ellipse.*;
 
 /**
- * This class creates and can display a rectangle on the canvas. I reused this from the castles assignment so if this
+ * This class creates and can display an ellipse on the canvas. I reused this from the castles assignment so if this
  * breaks its past-tense me's fault.
  *
  * @author Dave Slemon, Zachary Sousa (docs, modified to use Shape class)
  * @version v100
  */
-public class Rectangle extends Shape
+public class Ellipse extends Shape
 {    
     /**
-     *  Generic constructor for the Rectangle
+     *  Generic constructor for the Ellipse
      *  @author     Zachary Sousa
      *  @version    1.00
      */
-    public Rectangle() {
+    public Ellipse() {
         super();
     }
     
     /**
-     *  Overload constructor for the Rectangle
+     *  Overload constructor for the Ellipse
      *  
-     *  @param siz              Vector size of the Rectangle
-     *  @param fillColor        the fill color of the Rectangle
-     *  @param borderColor      the border color of the Rectangle
-     *  @param pos              Vector position of the Rectangle
+     *  @param siz              Vector size of the Ellipse
+     *  @param fillColor        the fill color of the Ellipse
+     *  @param borderColor      the border color of the Ellipse
+     *  @param pos              Vector position of the Ellipse
      *  @param lineWidth        stroke thickness of the Shape
      *  
      *  @author     Dave Slemon, Zachary Sousa (reworked to use Vector and Shape)
      *  @version    1.00
      */
-    public Rectangle(Vector siz, Color fillColor, Color borderColor, Vector pos, int lineWidth)
+    public Ellipse(Vector siz, Color fillColor, Color borderColor, Vector pos, int lineWidth)
     {
         super(siz, fillColor, borderColor, pos, lineWidth);
     }
     
     
     /**
-     * draws the Rectangle
+     * draws the Ellipse
      * 
      * @param gc    GraphicsContext used in main program
      * 
@@ -50,16 +50,16 @@ public class Rectangle extends Shape
     public void draw(GraphicsContext gc)
     {
        gc.setFill(fillColor);
-       gc.fillRect(pos.getX(),pos.getY(), siz.getX(), siz.getY());
+       gc.fillOval(pos.getX(),pos.getY(), siz.getX(), siz.getY());
        
        gc.setLineWidth(lineWidth);
        gc.setStroke(borderColor);
-       gc.strokeRect(pos.getX(),pos.getY(), siz.getX(), siz.getY());
+       gc.strokeOval(pos.getX(),pos.getY(), siz.getX(), siz.getY());
     }
     
     
     /**
-     * @return      stats about the Rectangle
+     * @return      stats about the Ellipse
      * 
      * @author      Zachary Sousa 
      * @version     1.00
