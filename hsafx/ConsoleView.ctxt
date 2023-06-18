@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ConsoleView
+comment0.text=\r\n\ This\ is\ a\ re-implementation\ of\ the\ old\ hsa\ console\ by\ Holt\ Software\r\n\ Associates,\ in\ order\ to\ use\ Java\ FX,\ and\ to\ present\ an\ API\ consistent\ with\r\n\ the\ GraphicsContext\ and\ Scanner\ classes.\r\n\r\n\ For\ more\ details\ and\ version\ history,\ see\ Console.java.\r\n\r\n\ @author\ Sam\ Scott\r\n\r\n\ @version\ 6.0,\ May\ 24,\ 2018\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ start\ method\ sets\ up\ the\ window\r\n\r\n\ @param\ stage\ The\ FX\ stage\ to\ draw\ on\r\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=title
+comment3.target=void\ setTitle(java.lang.String)
+comment4.params=
+comment4.target=void\ show()
+comment5.params=
+comment5.target=javafx.scene.canvas.Canvas\ getLiveCanvas()
+comment6.params=
+comment6.target=javafx.scene.canvas.Canvas\ getGlassPane()
+numComments=7

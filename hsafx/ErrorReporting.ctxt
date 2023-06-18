@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ErrorReporting
+comment0.text=\r\n\ A\ re-implementation\ of\ the\ FatalError\ class\ from\ the\ hsa\ console.\ Replaced\r\n\ constructor\ with\ a\ static\ method.\ Added\ code\ to\ make\ sure\ popup\ appears\ on\r\n\ top.\r\n\r\n\ @author\ Sam\ Scott\r\n\ \r\n\ @version\ 6.0,\ May\ 24,\ 2018\r\n
+comment1.params=message
+comment1.target=void\ fatalError(java.lang.String)
+numComments=2

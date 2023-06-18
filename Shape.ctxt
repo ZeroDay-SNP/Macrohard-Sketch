@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\r\n\ Abstract\ class\ Shape\ -\ basic\ parameters\ for\ any\ shape.\r\n\r\n\ @author\ \ \ \ \ \ Zachary\ Sousa\r\n\ @version\ \ \ \ \ 1.00\r\n
+comment1.params=
+comment1.target=Shape()
+comment1.text=\r\n\ \ Shape\ constructor.\r\n\ \ \r\n\ \ @author\ \ \ \ \ Zachary\ Sousa\r\n\ \ @version\ \ \ \ 1.00\r\n
+comment2.params=siz\ fillColor\ borderColor\ pos
+comment2.target=Shape(Vector,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color,\ Vector)
+comment2.text=\r\n\ \ Shape\ constructor\ overload.\r\n\ \ \r\n\ \ @param\ siz\ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector\ size\ of\ the\ shape\r\n\ \ @param\ fillColor\ \ \ \ \ \ \ \ the\ fill\ color\ of\ the\ Shape\r\n\ \ @param\ borderColor\ \ \ \ \ \ the\ border\ color\ of\ the\ Shape\r\n\ \ @param\ pos\ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector\ position\ of\ the\ Shape\r\n\ \ \r\n\ \ @author\ \ \ \ \ Dave\ Slemon,\ Zachary\ Sousa\ (reworked\ to\ use\ Vector)\r\n\ \ @version\ \ \ \ 1.00\r\n
+comment3.params=gc
+comment3.target=void\ draw(javafx.scene.canvas.GraphicsContext)
+comment3.text=\r\n\ Override\ this\ with\ drawing\ code.\ Pretty\ self\ explanatory.\r\n
+numComments=4

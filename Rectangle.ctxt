@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\r\n\ This\ class\ creates\ and\ can\ display\ a\ rectangle\ on\ the\ canvas.\ I\ reused\ this\ from\ the\ castles\ assignment\ so\ if\ this\r\n\ breaks\ its\ past-tense\ me's\ fault.\r\n\r\n\ @author\ Dave\ Slemon,\ Zachary\ Sousa\ (docs,\ modified\ to\ use\ Shape\ class)\r\n\ @version\ v100\r\n
+comment1.params=
+comment1.target=Rectangle()
+comment1.text=\r\n\ \ Generic\ constructor\ for\ the\ Rectangle\r\n\ \ @author\ \ \ \ \ Zachary\ Sousa\r\n\ \ @version\ \ \ \ 1.00\r\n
+comment2.params=siz\ fillColor\ borderColor\ pos
+comment2.target=Rectangle(Vector,\ javafx.scene.paint.Color,\ javafx.scene.paint.Color,\ Vector)
+comment2.text=\r\n\ \ Overload\ constructor\ for\ the\ Rectangle\r\n\ \ \r\n\ \ @param\ siz\ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector\ size\ of\ the\ Rectangle\r\n\ \ @param\ fillColor\ \ \ \ \ \ \ \ the\ fill\ color\ of\ the\ Rectangle\r\n\ \ @param\ borderColor\ \ \ \ \ \ the\ border\ color\ of\ the\ Rectangle\r\n\ \ @param\ pos\ \ \ \ \ \ \ \ \ \ \ \ \ \ Vector\ position\ of\ the\ Rectangle\r\n\ \ \r\n\ \ @author\ \ \ \ \ Dave\ Slemon,\ Zachary\ Sousa\ (reworked\ to\ use\ Vector\ and\ Shape)\r\n\ \ @version\ \ \ \ 1.00\r\n
+comment3.params=gc
+comment3.target=void\ draw(javafx.scene.canvas.GraphicsContext)
+comment3.text=\r\n\ draws\ the\ Rectangle\r\n\ \r\n\ @param\ gc\ \ \ \ GraphicsContext\ used\ in\ main\ program\r\n\ \r\n\ @author\ \ \ \ \ \ Dave\ Slemon,\ Zachary\ Sousa\ (docs,\ reworked\ to\ use\ Vector\ and\ Shape)\r\n\ @version\ \ \ \ \ 1.00\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ @return\ \ \ \ \ \ stats\ about\ the\ Rectangle\r\n\ \r\n\ @author\ \ \ \ \ \ Zachary\ Sousa\ \r\n\ @version\ \ \ \ \ 1.00\r\n
+numComments=5
